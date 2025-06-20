@@ -788,8 +788,8 @@ try {
     `📷 *Bukti Pembayaran:* ${imageUrl}`;
   
   // Send message and image in one go
-  const BOT_TOKEN = '7962763033:AAFisNluy4cdf9_P2h7NVG9BZryRfn9Fi48'; // Replace with your bot token
-  const CHAT_ID = '6402648265'; // Replace with your admin chat ID
+  const BOT_TOKEN = '7956616319:AAGRV0_HyNaW1G8lEUgGD7q98PFB8Oahr_w'; // Replace with your bot token
+  const CHAT_ID = '8097208465'; // Replace with your admin chat ID
   
   const telegramResponse = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, {
     method: 'POST',

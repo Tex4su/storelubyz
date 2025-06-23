@@ -1,7 +1,7 @@
 //~~~~~~~~~~~~~~~~~~~~~ { Settings } ~~~~~~~~~~~~~~~~~~~~~~//
 const settings = {
   apiSimpel: 'new2025', // Your API key for payment processing
-  ptla_api: 'ptla_dh7us9Eiknof6CDSZqk6CWoS73qUcdCNDI7VYNLUfdn', // Pterodactyl API key isi Di Line 173
+  ptla_api: 'ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx', // Pterodactyl API key isi Di Line 173
   domain: 'https://lubyzprivat.tamapriv.my.id',
   domainkey: 'https://lubyzprivat.tamapriv.my.id', // Pterodactyl panel URL
   MERCHANT_ID: 'OK1998313',
@@ -174,7 +174,7 @@ async function createPterodactylAccount(email, product) {
   // Correct API URL from your example
   const url = 'https://simpelz.fahriofficial.my.id/api/pterodactyl/create-user-and-server';
   const domain = 'https://lubyzprivat.tamapriv.my.id';
-  const apikey = 'ptla_dh7us9Eiknof6CDSZqk6CWoS73qUcdCNDI7VYNLUfdn';
+  const apikey = 'ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx';
 
   // Generate username based on email
   const username = email.split('@')[0].toLowerCase().replace(/[^a-z0-9]/g, '');

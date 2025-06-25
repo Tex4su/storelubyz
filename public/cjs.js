@@ -1,9 +1,9 @@
 //~~~~~~~~~~~~~~~~~~~~~ { Settings } ~~~~~~~~~~~~~~~~~~~~~~//
 const settings = {
   apiSimpel: 'new2025', // Your API key for payment processing
-  ptla_api: 'ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx', // Pterodactyl API key isi Juga Line 161
-  domain: 'https://lubyzprivat.tamapriv.my.id', // Isi Juga Line 161
-  domainkey: 'https://lubyzprivat.tamapriv.my.id', // Pterodactyl panel URL
+  ptla_api: 'ptla_ue75OB1ry6CGZovHX6kOgVkWeSU0fj0tmXEGQogpeC2', // Pterodactyl API key isi Juga Line 161
+  domain: 'https://lubyzofficial.paneldo.biz.id', // Isi Juga Line 161
+  domainkey: 'https://lubyzofficial.paneldo.biz.id', // Pterodactyl panel URL
   MERCHANT_ID: 'OK2305410',
   KEYORKUT: '538628117506632922305410OKCT59F343F8D0F3FFA1AF5EC2B90CB89350',
   SIMPELZ_API: 'https://simpelz.fahriofficial.my.id/api/orkut', // Simpelz API base URL
@@ -166,7 +166,7 @@ async function createPterodactylAccount(email, product) {
   
   // Konfigurasi tetap (kalau mau user yg isi, bisa jadi parameter)
   const domain = settings.domain;
-  const apikey = "ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx";
+  const apikey = "ptla_ue75OB1ry6CGZovHX6kOgVkWeSU0fj0tmXEGQogpeC2";
 
   // Enhanced debugging
   console.log("Creating Pterodactyl account with parameters:", { 

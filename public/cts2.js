@@ -1,9 +1,9 @@
 //~~~~~~~~~~~~~~~~~~~~~ { Settings } ~~~~~~~~~~~~~~~~~~~~~~//
 const settings = {
   apiSimpel: 'new2025', // Your API key for payment processing
-  ptla_api: 'ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx', // Pterodactyl API key isi Di Line 173
-  domain: 'https://lubyzprivat.tamapriv.my.id',
-  domainkey: 'https://lubyzprivat.tamapriv.my.id', // Pterodactyl panel URL
+  ptla_api: 'ptla_ue75OB1ry6CGZovHX6kOgVkWeSU0fj0tmXEGQogpeC2', // Pterodactyl API key isi Di Line 173
+  domain: 'https://lubyzofficial.paneldo.biz.id',
+  domainkey: 'https://llubyzofficial.paneldo.biz.id', // Pterodactyl panel URL
   MERCHANT_ID: 'OK2305410',
   KEYORKUT: '538628117506632922305410OKCT59F343F8D0F3FFA1AF5EC2B90CB89350',
   SIMPELZ_API: 'https://simpelz.fahriofficial.my.id/api/orkut', // Simpelz API base URL
@@ -173,8 +173,8 @@ navigator.clipboard.writeText(text)
 async function createPterodactylAccount(email, product) {
   // Correct API URL from your example
   const url = 'https://simpelz.fahriofficial.my.id/api/pterodactyl/create-user-and-server';
-  const domain = 'https://lubyzprivat.tamapriv.my.id';
-  const apikey = 'ptla_DEUjn2npXHuBbmeeDtHLoY39rCESVWfJ1d27tRY8wpx';
+  const domain = 'https://lubyzofficial.paneldo.biz.id';
+  const apikey = 'ptla_ue75OB1ry6CGZovHX6kOgVkWeSU0fj0tmXEGQogpeC2';
 
   // Generate username based on email
   const username = email.split('@')[0].toLowerCase().replace(/[^a-z0-9]/g, '');
